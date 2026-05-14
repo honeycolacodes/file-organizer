@@ -13,3 +13,13 @@ A Python script that automatically sorts files in any folder into subfolders by 
 3. Run: `python organizer.py`
 
 ## Example output
+```
+Moved: vacation.jpg → Images/
+Moved: resume.pdf → Documents/
+Moved: song.mp3 → Audio/
+Done! Your folder is organized.
+```
+
+## Tech used
+- Python 3
+- `os` and `shutil` (built-in libraries, no install needed)
